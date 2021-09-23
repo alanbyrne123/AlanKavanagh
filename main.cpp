@@ -32,8 +32,13 @@ int main()
     Triangle Tri;
     Tri.setWidth(5);
     Tri.setHeight(7);
-
+    
+    double pi = 3.14;
+    double r = 5;
+    double area = (r*r)*pi;
+    
     cout << "Total Triangle area: " << Tri.getArea() << endl;
+    cout << "Area of a circle with radius " << r << " and with pi being " << pi << ": " << area ; 
 
     return 0;
 }
